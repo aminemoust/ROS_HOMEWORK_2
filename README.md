@@ -1,4 +1,21 @@
 # ROS_HOMEWORK_2
+This file is part of ROS-Homework-1 and it is distributed under the terms of the
+GNU Lesser General Public License (Lesser GPL)
+
+Laboratorio Ciberfisico<br>
+[Robot Programming with ROS](http://profs.scienze.univr.it/~bloisi/corsi/ciberfisico.html)<br>
+A.Y. 2017/2018<br>
+University of Verona (Italy)
+
+![laboratorio ciberfisico](img/cyberphysical-lab.jpg)
+
+In questo homework si deve modellare una parte del dipartimento di informatica del Università di Verona, da utilizzare in Gazebo.
+Il modello viene poi usato per creare una mappa e su questa viene fatta una navigazione autonoma del turtlebot3.
+Il modello usato in questo homework è l'aula H.
+Le informazioni della mappa si trovano nella directory map.
+
+N.B: è stato caricato un video che dimostra la navigazione, usando il software rviz; per problemi di caricamenti su youtube, il video è stato caricato direttamente sul repository github (ros_turtlebot_navigationFinal.mp4).
+
 
 ## Installazione:
   ### Prerequisiti:
@@ -42,3 +59,9 @@
   -export TURTLEBOT3_MODEL=waffle 
   -rosrun rviz rviz -d `rospack find turtlebot3_navigation`/rviz/turtlebot3_nav.rviz
   ```
+
+
+
+Second assignment of cyber-physical laboratory<br>
+For any suggestion/bugs/typos report to <br>
+amine.moustaghfir@studenti.univr.it
